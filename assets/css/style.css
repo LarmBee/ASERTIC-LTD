@@ -15,11 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #5cb874;
+  color: black;
 }
 
 a:hover {
-  color: #80c792;
+  color: #0d0f0e;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5cb874;
+  background: black;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -132,7 +132,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #5cb874;
+  color: black;
 }
 
 #header .logo img {
@@ -407,7 +407,6 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(45, 103, 60, 0.8);
 }
 
 #hero .carousel-container {
