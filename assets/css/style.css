@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.icon{
+  height: 60%;
+  width: 60%;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -597,7 +601,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -647,6 +651,10 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about{
+  background-color: gray;
+  color: white;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
@@ -719,6 +727,11 @@ section {
 /*--------------------------------------------------------------
 # Our Clients
 --------------------------------------------------------------*/
+.clients{
+  background-color: gray;
+  color: white;
+}
+
 .clients .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
@@ -1121,6 +1134,9 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team{
+  background-color: gray;
+}
 .team .member {
   text-align: center;
   margin-bottom: 20px;

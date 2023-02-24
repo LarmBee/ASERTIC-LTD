@@ -263,3 +263,10 @@
   });
 
 })()
+const body=document.getElementById('main_body')
+
+
+const dark =document.getElementById('toggle').onclick = function() {
+  body.classList.toggle("dark-mode");
+};
+
