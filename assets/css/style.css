@@ -652,7 +652,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about{
-  background-color: gray;
+  background-color: rgb(104, 198, 235);
   color: white;
 }
 .about .content h3 {
@@ -728,7 +728,7 @@ section {
 # Our Clients
 --------------------------------------------------------------*/
 .clients{
-  background-color: gray;
+  background-color: rgb(104, 198, 235);
   color: white;
 }
 
@@ -1135,7 +1135,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team{
-  background-color: gray;
+  background-color: rgb(104, 198, 235);
 }
 .team .member {
   text-align: center;
