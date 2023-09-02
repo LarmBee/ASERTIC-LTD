@@ -766,6 +766,18 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
+.services{
+  background: #483285;
+  
+}
+.services .section-title{
+  color: white;
+}
+
+.services .service-text{
+  color: white;
+}
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 100px;

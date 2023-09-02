@@ -227,28 +227,9 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- ======= Our Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Our Clients</h2>
-          <p class="section-text">At Ascertic, we take immense pride in the relationships we've built with a wide range of clients across various industries. Our commitment to excellence and tailored solutions has allowed us to collaborate with both established industry leaders and innovative startups. Here's a glimpse of some of the remarkable clients we've had the privilege to work with:</p>
-        </div>
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/columbiaafrica-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo2.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Our Clients Section -->
-
+    
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="services" class="services align-items-center">
       <div class="container">
 
         <div class="section-title">
@@ -280,7 +261,10 @@
                 <i class="bx bx-file"></i>
               </div>
               <h4><a href="">Training</a></h4>
-              <p>We take the 5 basic steps to manage risks. We identify,analyze,prioritize, implement a solution and monitor the risk.</p>
+              <p>
+                This is a process that a business goes through in order to determine all the training that 
+                needs to be completed in a certain period to allow their team to complete their 
+                job as effectively as possible, as well as progress and grow.</p>
               <a href="./training.html" class="btn btn-primary mt-3">Learn More</a>
             </div>
           </div>
@@ -294,9 +278,12 @@
                 <i class="bx bx-tachometer"></i>
               </div>
               <h4><a href="">Strategy Building</a></h4>
-              <p>We pride ourselves on providing a tailored project management sevice that assists our clients in establishing their options ,defining project needs and managing teams for projects of all sizes and complexities</p>
+              <p>As organizations engage in strategy building, it becomes evident that success will necessitate the development of new strategies and tactics, alongside a reimagined perspective on standardization.</p>
               <a href="./strategybuilding.html" class="btn btn-primary mt-3">Learn More</a>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
@@ -308,7 +295,7 @@
                 <i class="bx bx-layer"></i>
               </div>
               <h4><a href="">Sustainability Consulting</a></h4>
-              <p>Much like financial, business or operations analysts, we will collect,analyze data, identify needs and devise strategies to meet those needs</p>
+              <p>As companies delve into sustainability and consulting initiatives, it becomes increasingly apparent that achieving success will hinge not only on adopting new practices and consulting methodologies but also on reevaluating traditional approaches to standardization.</p>
               <a href="./sustainability.html" class="btn btn-primary mt-3">Learn More</a>
             </div>
           </div>
@@ -321,6 +308,26 @@
 
       </div>
     </section><!-- End Services Section -->
+
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Clients</h2>
+          <p class="section-text">At Ascertic, we take immense pride in the relationships we've built with a wide range of clients across various industries. Our commitment to excellence and tailored solutions has allowed us to collaborate with both established industry leaders and innovative startups. Here's a glimpse of some of the remarkable clients we've had the privilege to work with:</p>
+        </div>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/columbiaafrica-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo2.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -421,7 +428,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form  role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -445,7 +452,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" id="contact_button"  onclick="sendemail()">Send Message</button></div>
             </form>
           </div>
 

@@ -270,3 +270,9 @@ const dark =document.getElementById('toggle').onclick = function() {
   body.classList.toggle("dark-mode");
 };
 
+const sendEmail = ()=>{
+  alert("Clicked")
+}
+
+const button = document.getElementById('contact_button');
+button.onclick =sendEmail;
